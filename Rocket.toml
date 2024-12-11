@@ -1,0 +1,11 @@
+[default]
+address = "127.0.0.1"
+port = 8800
+secret_key = "f26d2d6f2f3bcd7b88e36b8b08a2352b8c80f90ef41075db1df4d479cb08484a"
+log_level = "normal"
+
+[debug]
+port = 5252
+
+[realise]
+port = 8800

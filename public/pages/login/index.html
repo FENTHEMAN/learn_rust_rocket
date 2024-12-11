@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="/public/pages/login/styles.css" />
+    </head>
+    <body>
+        <main class="page">
+            <section class="section">
+                <form id="form" class="form">
+                    <h1 class="form__title">Login in</h1>
+                    <div class="form__inputsContainer">
+                        <label for="name">Name:</label>
+                        <input
+                            name="name"
+                            id="name"
+                            placeholder="Name"
+                            type="text"
+                            class="form__input"
+                        />
+                        <label for="email">Email:</label>
+                        <input
+                            name="email"
+                            id="email"
+                            placeholder="Email"
+                            type="text"
+                            class="form__input"
+                        />
+                        <label for="password">Password:</label>
+                        <input
+                            name="password"
+                            id="password"
+                            placeholder="Password"
+                            type="text"
+                            class="form__input"
+                        />
+                    </div>
+                    <button type="submit" class="form__button">Login</button>
+                </form>
+            </section>
+        </main>
+        <script type="module" src="/public/js/login.js"></script>
+    </body>
+</html>
